@@ -1,0 +1,121 @@
+::selection {
+  background-color: rgb(40, 179, 204);
+}
+
+body {
+  text-align: center;
+  background-color: #7388c2;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+
+
+h1 {
+  font-size: 3.5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(images/tom1.jpg);
+}
+
+.a {
+  background-image: url(images/tom2.jpg);
+}
+
+.s {
+  background-image: url(images/tom3.jpg);
+}
+
+.d {
+  background-image: url(images/tom4.jpg);
+}
+
+.j {
+  background-image: url(images/snare.jpg);
+}
+
+.k {
+  background-image: url(images/crash.jpg);
+}
+
+.l {
+  background-image: url(images/kick.jpg);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  /* line-height: 2; */
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+/* Responsive Codes */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .drum {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+}
